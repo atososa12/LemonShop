@@ -45,6 +45,7 @@
     <div class="row mt-4">
       <div class="col-md-4">
         <div class="card-servicio">
+          <img src="img/logocombo.png" alt="Combo">
           <h5>Combos</h5>
           <a href="#" class="btn-mini">
             <i class="bi bi-whatsapp"></i> Consultar por WhatsApp
@@ -54,6 +55,7 @@
 
       <div class="col-md-4">
         <div class="card-servicio">
+          <img src="img/LogoAccesoriosParaCelulares.png" alt="Accesorios">
           <h5>Accesorios</h5>
           <a href="#" class="btn-mini">
             <i class="bi bi-whatsapp"></i> Consultar por WhatsApp
@@ -63,6 +65,7 @@
 
       <div class="col-md-4">
         <div class="card-servicio">
+          <img src="img/serviciotecnico.png" alt="Servicio técnico">
           <h5>Servicio técnico</h5>
           <a href="#" class="btn-mini"
           ><i class="bi bi-whatsapp"></i> Consultar por WhatsApp</a>
