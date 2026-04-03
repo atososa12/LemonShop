@@ -96,6 +96,13 @@ body {
   transform: translateY(-5px);
 }
 
+.card-servicio img {
+  width: 100%;
+  height: 200px; 
+  object-fit: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
 /* SUCURSALES */
 .location {
   display: flex;
