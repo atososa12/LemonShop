@@ -1,0 +1,59 @@
+/* MODO OSCURO */
+body.dark-mode {
+  background: hsl(240, 12%, 12%); /* fondo oscuro */
+  color: #e0e0e0; /* texto claro */
+}
+
+/* NAV */
+body.dark-mode .navbar-custom {
+  background: #111211;
+}
+
+body.dark-mode .menu a {
+  color: #e0e0e0;
+}
+
+body.dark-mode .menu a:hover {
+  color: #fffb1b; /* mantengo el amarillo de hover */
+}
+
+/* HERO */
+body.dark-mode .hero {
+  background: linear-gradient(#111211, #112F17);
+}
+
+body.dark-mode .contenido h1,
+body.dark-mode .contenido p {
+  color: #fff;
+}
+
+/* BOTONES */
+body.dark-mode .btn-mini {
+  background: linear-gradient(#145a1a,#bfa600);
+  color: #fff;
+}
+
+/* SERVICIOS */
+body.dark-mode h2{
+    color:white;
+}
+body.dark-mode .card-servicio {
+  background:#575755; 
+  color: #e0e0e0;
+  box-shadow: 0 5px 15px rgba(255,255,255,0.1);
+}
+
+/* SUCURSALES */
+body.dark-mode .location {
+  background: #16610C;
+}
+
+body.dark-mode .locations-header {
+  color: #a2d18b;
+}
+
+body.dark-mode .location .btn-mini {
+  background: #145a1a;
+  color: #fff;
+}
+
