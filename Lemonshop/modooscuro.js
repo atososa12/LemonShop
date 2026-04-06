@@ -1,15 +1,33 @@
 const toggle = document.getElementById('toggle-dark');
 
-toggle.addEventListener('click', () => {
-  document.body.classList.toggle('dark-mode');
+document.addEventListener('DOMContentLoaded', () => {
+  const modo = localStorage.getItem('modoOscuro');
 
-  // Cambiar icono entre luna y sol
-  const icon = toggle.querySelector('i');
-  if (document.body.classList.contains('dark-mode')) {
+  if (modo === 'activo') {
+    document.body.classList.add('dark-mode');
+
+    const icon = toggle.querySelector('i');
     icon.classList.remove('bi-moon');
     icon.classList.add('bi-sun');
-  } else {
-    icon.classList.remove('bi-sun');
-    icon.classList.add('bi-moon');
   }
 });
+
+if (toggle) {
+  toggle.addEventListener('click', () => {
+    document.body.classList.toggle('dark-mode');
+
+    const icon = toggle.querySelector('i');
+
+    if (document.body.classList.contains('dark-mode')) {
+      icon.classList.remove('bi-moon');
+      icon.classList.add('bi-sun');
+
+      localStorage.setItem('modoOscuro', 'activo');
+    } else {
+      icon.classList.remove('bi-sun');
+      icon.classList.add('bi-moon');
+
+      localStorage.setItem('modoOscuro', 'inactivo');
+    }
+  });
+}
