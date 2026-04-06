@@ -1,0 +1,61 @@
+/* Modo oscuro general */
+body.dark-mode {
+  background: #1e1e1e; 
+  color: #e0e0e0; 
+}
+
+/* Navbar modo oscuro */
+body.dark-mode .navbar-custom {
+  background: #1e1e1e;
+  box-shadow: none;
+  border-bottom: none;
+}
+
+body.dark-mode .menu a {
+  color: #e0e0e0;
+}
+
+body.dark-mode .menu a:hover {
+  color: #fffb1b; 
+}
+
+/* H1 modo oscuro */
+body.dark-mode h1 {
+  background: #FFFB1B; 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Tarjetas modo oscuro */
+body.dark-mode .contenedor-productos .card {
+  background: #575755;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+}
+
+body.dark-mode .contenedor-productos .card h2 {
+  color: #ffffff;
+}
+
+body.dark-mode .contenedor-productos .card p {
+  color: #cccccc;
+}
+
+/* Botones modo oscuro */
+body.dark-mode .btn-wsp, 
+body.dark-mode .btn-success {
+  background: linear-gradient(90deg, #388e3c, #d6d851);
+  color: #fff;
+}
+
+body.dark-mode .btn-wsp:hover, 
+body.dark-mode .btn-success:hover {
+  color: #000;
+  box-shadow: 0 5px 15px rgba(255,255,255,0.2);
+}
+
+/* Footer modo oscuro */
+body.dark-mode footer {
+  background: #1e1e1e;
+  color: #cccccc;
+}

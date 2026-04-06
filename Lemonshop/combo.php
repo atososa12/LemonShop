@@ -14,7 +14,8 @@ $resultado = $conn->query($sql);
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/combo.css">
+  <link rel="stylesheet" href="css/modooscurocombo.css">
 </head>
 
 <body>
@@ -67,6 +68,6 @@ $resultado = $conn->query($sql);
     </a>
   </div>
 </footer>
-
+<script src="js/modooscuro.js"></script>
 </body>
 </html>
