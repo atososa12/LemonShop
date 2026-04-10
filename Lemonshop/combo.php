@@ -29,6 +29,7 @@ $resultado = $conn->query($sql);
       <li><a href="combo.php">Combos</a></li>
       <li><a href="servicios.html">Servicios</a></li>
       <li><a href="carrito.html">Carrito</a></li>
+      <li id="toggle-dark">
       <i class="bi bi-moon"></i>
     </ul>
   </nav>
